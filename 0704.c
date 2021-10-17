@@ -1,3 +1,5 @@
+// Program to find the sum of digits of a number.
+
 #include <stdio.h>
 int sum (int n){
     if (n != 0) return (n % 10 + sum (n / 10));
