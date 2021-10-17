@@ -1,3 +1,5 @@
+// Program to find the nth fibonacci number.
+
 #include <stdio.h>
 int fibo(int n) {
     if(n == 0) return 0;
