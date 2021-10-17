@@ -153,7 +153,7 @@ int main()
         fflush(stdin);
         printf("\nEnter 1 for inserting, 2 for insert at begining, 3 for showing 4 delete from begining, 5 exit: ");
         scanf(" %d", &choice);
-        if (choice == 1)
+        if (choice == 1)//choices
         {
             int val;
             printf("\nEnter value: ");
@@ -170,7 +170,7 @@ int main()
         else if (choice == 3)
         {
             printf("\nContents of the list are:\n");
-            printList(start);
+            printList(start);//printing lists
         }
         else if (choice == 4)
         {
