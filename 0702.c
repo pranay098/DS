@@ -1,21 +1,4 @@
-/*#include <stdio.h>
-int sum(int arr[], int n) {
-	if(n<=0) return 0;
-    return (arr[n-1] + sum(arr, n-1));
-}
-int main(){    
-    int n;
-	float avg= 0.0f;
-	int arr[n];
-    scanf("%d", &n);
-    for(int i=0; i<n; i++){
-        scanf("%d", &arr[i]);
-    }   
-    avg = sum(arr,n)/n;
-    printf("Sum of elements: %f", avg);   
-    return 0;
-}*/
-
+// Program to find the average of an array.
 
 #include <stdio.h>
 float avge(float n[], int i, int a);
