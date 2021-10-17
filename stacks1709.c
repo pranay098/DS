@@ -23,9 +23,7 @@ struct ArrStack *Create(){
 int isEmpty(struct ArrStack *s){
     return (s->first==-1);
 }
-/*
-if (s->first==1-) return 1;
-else return*/
+
 
 int isFull(struct ArrStack *s){
     return (s->first == s->n - 1);
@@ -71,10 +69,8 @@ int main(){
     push(s,9);
     push(s,7);
     count(s);
-    printf("%d",peek(s));
-    //pop(s);
-    //printf("%d",isFull(s));
-    printf("\n%d",count(s));
+    printf("%d",peek(s));//peak
+    printf("\n%d",count(s));//counting no of elements in a stack
    
     return 0;
 }
