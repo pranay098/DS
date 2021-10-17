@@ -1,3 +1,5 @@
+// Program to find the factorial of a number.
+
 #include <stdio.h>
 int fact(int i) {
     if(i <= 1) {
